@@ -1,0 +1,732 @@
+{
+  "companies": [
+    {
+      "id": "AURAREE FOOD PRODUCT CO., LTD.",
+      "juristicInfo": {
+        "name": "AURAREE FOOD PRODUCT CO., LTD.",
+        "registrationNumber": "105543103530",
+        "type": "Limited Company",
+        "status": {
+          "state": "Active",
+          "expiryDate": "June 4, 2025"
+        },
+        "incorporationDate": "November 06, 2000",
+        "registeredCapital": {
+          "amount": 5000000,
+          "currency": "THB"
+        },
+        "businessGroup": "Wholesale",
+        "businessSize": "Medium",
+        "financialReportingYears": ["2024", "2023", "2022", "2021", "2020"],
+        "headOffice": {
+          "address": "27/3 Moo 7, Tha Chin Subdistrict, Mueang Samut Sakhon District, Samut Sakhon 74000, Thailand",
+          "country": "Thailand"
+        },
+        "website": null
+      },
+      "boardOfDirectors": [
+        "Lertsak Wachirathirachai"
+
+      ],
+      "businessTypes": {
+        "registered": {
+          "code": "46209",
+          "description": "Wholesale of Other Unclassified Agricultural Raw Materials",
+          "objective": "To manufacture and distribute agricultural products and processed agricultural goods."
+        },
+        "latest": {
+          "code": "46201",
+          "description": "Wholesale of Paddy and Other Grains",
+          "objective": "To operate a business involving the distribution of agricultural produce."
+        }
+      },
+      "projects": [
+        {
+          "id": "proj-005",
+          "projectId": "VKN-2024-005",
+          "name": "Solar Farm Project A",
+          "location": "Chonburi, Thailand",
+          "coordinates": "13.7563° N, 100.5018° E",
+          "weatherData": "TMY3",
+          "scenario": "Baseline",
+          "simulationDate": "2024-03-15",
+          "systemOverview": {
+            "modules": "Mono-crystalline 540W",
+            "totaldc": "2.5 MWp",
+            "mountingConfiguration": "Fixed-Tilt",
+            "systemType": "Ground Mount"
+          },
+          "deviceDetail": {
+            "pvModule": "JA Solar JAM72S30 540/MB",
+            "inverter": "Huawei SUN2000-185KTL-H1",
+            "wiring": "4mm² DC Cable"
+          },
+          "annualPerformance": {
+            "annualProduction": "3,650,000 kWh",
+            "specificYield": "1,460 kWh/kWp",
+            "performanceRatio": "78.5%"
+          }
+        }
+      ],
+      "ghgEmissions": {
+        "yearlyEmissions": [
+          { "year": "2020", "scope1": 500, "scope2": 700, "scope3": 1000 },
+          { "year": "2021", "scope1": 600, "scope2": 650, "scope3": 800 },
+          { "year": "2022", "scope1": 550, "scope2": 700, "scope3": 750 },
+          { "year": "2023", "scope1": 700, "scope2": 800, "scope3": 1000 },
+          { "year": "2024", "scope1": 600, "scope2": 750, "scope3": 800 }
+        ],
+        "scopeDistribution": [
+          { "name": "Scope 1", "value": 25, "color": "#38BE8A" },
+          { "name": "Scope 2", "value": 30, "color": "#167C89" },
+          { "name": "Scope 3", "value": 45, "color": "#022549" }
+        ],
+        "scope3Breakdown": {
+          "upstream": [
+            {
+              "category": "Purchased goods",
+              "value": 150,
+              "unit": "kgCO₂eq",
+              "icon": "Factory"
+            },
+            {
+              "category": "Capital goods",
+              "value": 100,
+              "unit": "kgCO₂eq",
+              "icon": "Logistic"
+            },
+            {
+              "category": "Fuel related",
+              "value": 200,
+              "unit": "kgCO₂eq",
+              "icon": "Fuel"
+            },
+            {
+              "category": "Transportation",
+              "value": 180,
+              "unit": "kgCO₂eq",
+              "icon": "Sea-freight"
+            },
+            {
+              "category": "Waste",
+              "value": 90,
+              "unit": "kgCO₂eq",
+              "icon": "Waste-Recycle"
+            },
+            {
+              "category": "Business travel",
+              "value": 120,
+              "unit": "kgCO₂eq",
+              "icon": "Traveling"
+            },
+            {
+              "category": "Commuting",
+              "value": 80,
+              "unit": "kgCO₂eq",
+              "icon": "Train"
+            },
+            {
+              "category": "Leased assets",
+              "value": 70,
+              "unit": "kgCO₂eq",
+              "icon": "Leased-asset"
+            }
+          ],
+          "downstream": [
+            {
+              "category": "Transportation",
+              "value": 130,
+              "unit": "kgCO₂eq",
+              "icon": "Sea-freight_3"
+            },
+            {
+              "category": "Processing",
+              "value": 160,
+              "unit": "kgCO₂eq",
+              "icon": "Factory_3"
+            },
+            {
+              "category": "Product use",
+              "value": 220,
+              "unit": "kgCO₂eq",
+              "icon": "Light_3"
+            },
+            {
+              "category": "End-of-life",
+              "value": 110,
+              "unit": "kgCO₂eq",
+              "icon": "Waste_3"
+            },
+            {
+              "category": "Leased assets",
+              "value": 90,
+              "unit": "kgCO₂eq",
+              "icon": "Leased-asset_3"
+            },
+            {
+              "category": "Franchises",
+              "value": 140,
+              "unit": "kgCO₂eq",
+              "icon": "Shop_3"
+            },
+            {
+              "category": "Investments",
+              "value": 170,
+              "unit": "kgCO₂eq",
+              "icon": "Investment_3"
+            }
+          ]
+        }
+      },
+      "carbonCredits": {
+        "parameters": [
+          {
+            "label": "EF",
+            "label_sub": "ER,RE,PJ,y",
+            "sublabel": "Emission factor from Renewable Energy Production",
+            "unit": "(tCO₂/MWh)",
+            "status": { "isConnected": true, "isOnline": true }
+          },
+          {
+            "label": "EF",
+            "label_sub": "EC,PJ,y",
+            "sublabel": "Emission factor from Electricity Consumption",
+            "unit": "(tCO₂/MWh)",
+            "status": { "isConnected": true, "isOnline": true }
+          }
+        ],
+        "solarPanel": {
+          "baselineEmissions": 980931,
+          "unit": "kWh"
+        },
+        "emissions": {
+          "project": {
+            "value": 23000,
+            "unit": "Ton CO₂e"
+          },
+          "leakage": {
+            "value": 0,
+            "unit": "Ton CO₂e"
+          }
+        },
+        "co2Reduction": {
+          "value": 477,
+          "unit": "kWh",
+          "safeguard": "Modelling error margin: ±5%"
+        }
+      },
+      "verification": {
+        "variables": [
+          { "label": "t stat", "value": 4.92, "status": "PASS" },
+          { "label": "Coefficients", "value": 6.54 },
+          { "label": "SE of Coefficient", "value": 1.33 }
+        ],
+        "modelFitness": [
+          { "label": "R2", "value": 0.59, "status": "NOT PASS" },
+          { "label": "CVRMSE", "value": 0.33 }
+        ],
+        "modelingError": [
+          { "label": "Overall uncertainty", "value": 644.83 },
+          { "label": "Number of interval", "value": 87.99 },
+          { "label": "Sqrt (Number of interval)", "value": 9.3274 },
+          { "label": "Standard error of saving", "value": 6201.17 },
+          { "label": "Confidence level", "value": "90%" },
+          { "label": "Degree of freedom", "value": 85.0 },
+          { "label": "t value", "value": 1.66 }
+        ],
+        "valueChart": [
+          { "year": 2020, "electricity": 1600, "carbon": 320 },
+          { "year": 2021, "electricity": 2200, "carbon": 440 },
+          { "year": 2022, "electricity": 1400, "carbon": 280 },
+          { "year": 2023, "electricity": 1800, "carbon": 360 },
+          { "year": 2024, "electricity": 1300, "carbon": 260 }
+        ]
+      },
+      "financialMetrics": {
+        "revenue": [
+          { "year": 2020, "totalRevenue": 21209896.35 },
+          { "year": 2021, "totalRevenue": 56530220.63 },
+          { "year": 2022, "totalRevenue": 12218378.37 },
+          { "year": 2023, "totalRevenue": 17094599.43 },
+          { "year": 2024, "totalRevenue": 19040792.19 }
+        ],
+        "overview": {
+          "income": {
+            "2024": {
+              "total_revenue": { 
+                "label": "Total revenue",
+                "total_revenue": 24538,
+                "percentage": 100
+              },
+              "revenue_from_sales_and_services": {
+                "label": "Revenue from sales and services",
+                "revenue": 24538,
+                "percentage": 99.2
+              },
+              "revenue_from_other_sources": {
+                "label": "Revenue from other sources",
+                "revenue": 196.63,
+                "percentage": 0.8
+              },
+              "cost_of_sold_goods": {
+                "label": "Cost of goods sold",
+                "cost": 21488,
+                "percentage": 86.87
+              },
+              "gross_profit_or_loss": {
+                "label": "Gross profit or loss",
+                "profit_or_loss": 305,
+                "percentage": 12.4
+              },
+              "administrative_profit_or_loss": {
+                "label": "Administrative profit or loss",
+                "profit_or_loss": 38767,
+                "percentage": 3.39
+              },
+              "net_profit_or_loss": {
+                "label": "Net profit or loss",
+                "profit_or_loss": 94053,
+                "percentage": 3.8
+              },
+              "cost_of_sales": {
+                "label": "Cost of sales and services",
+                "cost": 21488,
+                "percentage": 86.87
+              }
+            },
+            "2024": {
+              "total_revenue": {
+                "label": "Total revenue",
+                "total_revenue": 1111,
+                "percentage": 100
+              },
+              "revenue_from_sales_and_services": {
+                "label": "Revenue from sales and services",
+                "revenue": 222,
+                "percentage": 99.2
+              },
+              "revenue_from_other_sources": {
+                "label": "Revenue from other sources",
+                "revenue": 96.63,
+                "percentage": 0.8
+              },
+  
+              "cost_of_sold_goods": {
+                "label": "Cost of goods sold",
+                "cost": 21488,
+                "percentage": 86.87
+              },
+              "gross_profit_or_loss": {
+                "label": "Gross profit or loss",
+                "profit_or_loss": 305,
+                "percentage": 12.4
+              },
+              "administrative_profit_or_loss": {
+                "label": "Administrative profit or loss",
+                "profit_or_loss": 38767,
+                "percentage": 3.39
+              },
+              "net_profit_or_loss": {
+                "label": "Net profit or loss",
+                "profit_or_loss": 94053,
+                "percentage": 3.8
+              },
+              "cost_of_sales": {
+                "label": "Cost of sales and services",
+                "cost": 21488,
+                "percentage": 86.87
+              }
+            }
+          },
+          "assets":{
+            "2025": {
+              "other_non_current_assets": {
+                "label": "Other non-current assets",
+                "value": 24538,
+                "percentage": 100
+              },
+              "total_current_assets": {
+                "label": "Total current assets",
+                "value": 24538,
+                "percentage": 100
+              },
+              "inventories": {
+                "label": "Inventories",
+                "value": 24538,
+                "percentage": 100
+              },
+              "other_current_assets": {
+                "label": "Other current assets",
+                "value": 24538,
+                "percentage": 100
+              },
+              
+              "total_non_current_assets": {
+                "label": "Total non-current assets",
+                "value": 24538,
+                "percentage": 100
+              },
+              "total_assets": {
+                "label": "Total assets",
+                "value": 24538,
+                "percentage": 100
+              },
+              "total_liabilities_and_shareholders_equity": {
+                "label": "Total non-current assets",
+                "value": 24538,
+                "percentage": 100
+              },
+              "total_shareholders_equity": {
+                "label": "Total shareholders equity",
+                "value": 24538,
+                "percentage": 100
+              },
+              "total_liabilities": {
+                "label": "Total liabilities",
+                "value": 24538,
+                "percentage": 100
+              },
+              "total_current_liabilities": {
+                "label": "Total current liabilities",
+                "value": 24538,
+                "percentage": 100
+              },
+              
+              "total_non_current_liabilities": {
+                "label": "Total non-current liabilities",
+                "value": 24538,
+                "percentage": 100
+              }
+
+            
+            }
+          }
+        },
+        "profitabilityRatio": {
+          "data":[
+            {"year": "2024", "value": 189.72},
+            {"year": "2023", "value": 151.28}
+          ],
+          "ratios": {
+            "2024": [
+                {
+                  "name": "Gross Profit Margin",
+                  "before": 0.00,
+                  "after": 18.93,
+                  "change": 18.93,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Net Profit Margin",
+                  "before": 2.19,
+                  "after": 2.53,
+                  "change": 0.34,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Return on Assets",
+                  "before": 4.23,
+                  "after": 6.43,
+                  "change": 2.2,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Return on Equity",
+                  "before": 11.71,
+                  "after": 17.4,
+                  "change": 5.69,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Operating Profit Margin to Total Revenue ",
+                  "before": 2.83,
+                  "after": 3.19,
+                  "change": 0.36,
+                  "status": "Improved"
+                }
+            ],
+            "2023": [
+                {
+                  "name": "Gross Profit Margin",
+                  "before": 0.00,
+                  "after": 0.00,
+                  "change": 0.00,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Net Profit Margin",
+                  "before": 2.08,
+                  "after": 2.19,
+                  "change": 0.11,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Return on Assets",
+                  "before": 4.22,
+                  "after": 4.23,
+                  "change": 0.01,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Return on Equity",
+                  "before": 12.41,
+                  "after": 11.71,
+                  "change": -0.7,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Operating Profit Margin to Total Revenue ",
+                  "before": 2.68,
+                  "after": 2.83,
+                  "change": 0.15,
+                  "status": "Improved"
+                }
+            ]
+          }
+        },
+        "liquidityRatio": {
+          "data":[
+            {"year": "2024", "value": 144},
+            {"year": "2023", "value": 40},
+            {"year": "2022", "value": 30}
+          ],
+          "ratios": {
+            "2024": [
+                {
+                  "name": "Current Ratio",
+                  "before": 2.2,
+                  "after": 5.95,
+                  "change": 3.75,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Receivables Turnover Ratio",
+                  "before": 6,
+                  "after": 9.31,
+                  "change": 3.31,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Inventory Turnover Ratio",
+                  "before": 3.72,
+                  "after": 5.1,
+                  "change": 1.38,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Payables Turnover Ratio ",
+                  "before": 14.51,
+                  "after": 15.92,
+                  "change": 1.41,
+                  "status": "Improved"
+                }
+            ],
+            "2023": [
+              {
+                "name": "Current Ratio",
+                "before": 3.16,
+                "after": 2.2,
+                "change": -0.96,
+                "status": "Improved"
+              },
+              {
+                "name": "Receivables Turnover Ratio",
+                "before": 5.05,
+                "after": 6,
+                "change": 0.95,
+                "status": "Improved"
+              },
+              {
+                "name": "Inventory Turnover Ratio",
+                "before": 4.92,
+                "after": 3.72,
+                "change": -1.2,
+                "status": "Improved"
+              },
+              {
+                "name": "Payables Turnover Ratio ",
+                "before": 33.05,
+                "after": 14.51,
+                "change": -18.54,
+                "status": "Improved"
+              }
+            ],
+            "2022": [
+              {
+                "name": "Current Ratio",
+                "before": 1.55,
+                "after": 3.16,
+                "change": 1.61,
+                "status": "Improved"
+              },
+              {
+                "name": "Receivables Turnover Ratio",
+                "before": 5.53,
+                "after": 5.05,
+                "change": -0.48,
+                "status": "Improved"
+              },
+              {
+                "name": "Inventory Turnover Ratio",
+                "before": 4.93,
+                "after": 4.92,
+                "change": -0.01,
+                "status": "Improved"
+              },
+              {
+                "name": "Payables Turnover Ratio ",
+                "before": 19.92,
+                "after": 33.05,
+                "change": 13.13,
+                "status": "Improved"
+              }
+            ]
+          }
+        },
+        "efficiencyRatio": {
+          "data":[
+            {"year": "2025", "value": 144},
+            {"year": "2024", "value": 40}
+          ],
+          "ratios": {
+            "2025": [
+                {
+                  "name": "Total Asset Turnover Ratio ",
+                  "before": 1.82,
+                  "after": 0.81,
+                  "change": 1.01,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Operating Expense to Total Revenue Ratio ",
+                  "before": 95.00,
+                  "after": 92.98,
+                  "change": 2.02,
+                  "status": "Improved"
+                }
+            ],
+            "2024": [
+              {
+                "name": "Total Asset Turnover Ratio ",
+                "before": 0.91,
+                "after": 1.82,
+                "change": 0.91,
+                "status": "Improved"
+              },
+              {
+                "name": "Operating Expense to Total Revenue Ratio ",
+                "before": 94.97,
+                "after": 95.00,
+                "change": 0.03,
+                "status": "Improved"
+              }
+            ]
+          }
+        },
+        "industryRatio": {
+          "data":[
+            {"year": "2025", "value": 144},
+            {"year": "2024", "value": 40}
+          ],
+          "ratios": {
+            "2025": [
+                {
+                  "name": "Total Assets to Shareholders' Equity Ratio ",
+                  "before": 1.06,
+                  "after": 1.24,
+                  "change": 0.18,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Total Liabilities to Total Assets Ratio",
+                  "before": 0.06,
+                  "after": 0.19,
+                  "change": 0.13,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Total Liabilities to Shareholders' Equity Ratio",
+                  "before": 0.06,
+                  "after": 0.24,
+                  "change": 0.18,
+                  "status": "Improved"
+                },
+                {
+                  "name": "Total Liabilities to Operating Capital Ratio",
+                  "before": 0.06,
+                  "after": 0.19,
+                  "change": 0.13,
+                  "status": "Improved"
+                }
+            ],
+            "2024": [
+              {
+                "name": "Total Assets to Shareholders' Equity Ratio ",
+                "before": 1.07,
+                "after": 1.06,
+                "change": 0.01,
+                "status": "Improved"
+              },
+              {
+                "name": "Total Liabilities to Total Assets Ratio",
+                "before": 0.07,
+                "after": 0.06,
+                "change": 0.01,
+                "status": "Improved"
+              },
+              {
+                "name": "Total Liabilities to Shareholders' Equity Ratio",
+                "before": 0.07,
+                "after": 0.06,
+                "change": 0.01,
+                "status": "Improved"
+              },
+              {
+                "name": "Total Liabilities to Operating Capital Ratio",
+                "before": 0.07,
+                "after": 0.06,
+                "change": 0.01,
+                "status": "Improved"
+              }
+            ]
+          }
+        },
+        "overall": {
+          "metrics": [
+            {
+              "title": "Revenue",
+              "value": "$2.5M",
+              "change": "+15%",
+              "subtext": "vs last year"
+            },
+            {
+              "title": "Profit Margin",
+              "value": "32%",
+              "change": "+5%",
+              "subtext": "vs last year"
+            },
+            {
+              "title": "Operating Costs",
+              "value": "$1.2M",
+              "change": "-8%",
+              "subtext": "vs last year"
+            },
+            {
+              "title": "ROI",
+              "value": "28%",
+              "change": "+12%",
+              "subtext": "vs last year"
+            }
+          ],
+          "yearlyData": [
+            { "year": "2020", "value": 55, "lineValue1": 30, "lineValue2": 28 },
+            { "year": "2021", "value": 40, "lineValue1": 22, "lineValue2": 20 },
+            { "year": "2022", "value": 75, "lineValue1": 50, "lineValue2": 40 },
+            { "year": "2023", "value": 88, "lineValue1": 60, "lineValue2": 58 },
+            { "year": "2024", "value": 64, "lineValue1": 40, "lineValue2": 42 }
+          ]
+        }
+      }
+    }
+  ]
+}
